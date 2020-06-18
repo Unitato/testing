@@ -1,8 +1,10 @@
 git rebase -i 5c37a5027e25a6d5fbc6db65ea953b0ac7142727
 
-cp ys1piguq.s2c ys1piguq.s2c.bak
-git filter-branch --force --index-filter "git rm --cached --ignore-unmatch ys1piguq.s2c" --prune-empty --tag-name-filter cat -- --all
-mv ys1piguq.s2c.bak ys1piguq.s2c
+cp cm3qb0bb.fl0 cm3qb0bb.fl0.bak
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch cm3qb0bb.fl0" --prune-empty --tag-name-filter cat -- --all
+git commit -m 'cleaning history'
+git push origin --force --all
+mv cm3qb0bb.fl0.bak cm3qb0bb.fl0
 git add .
 git commit -m 'cleanup'
 git push origin --force --all
