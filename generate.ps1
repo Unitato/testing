@@ -1,5 +1,5 @@
 $target = [System.IO.Path]::GetRandomFileName()
-$content1 = "this is the secret message"
+$content1 = "this is the secret message: zzyyzz998877"
 $content2 = "i have removed the secret message"
 $content3 = "nothing to see here..."
 $content4 = "the forth commit"
